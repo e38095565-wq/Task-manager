@@ -1,0 +1,115 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  background:#0f172a;
+  color:white;
+  min-height:100vh;
+  padding:30px 15px;
+}
+
+.container{
+  max-width:700px;
+  margin:auto;
+}
+
+h1{
+  text-align:center;
+  margin-bottom:25px;
+  font-size:42px;
+}
+
+.task-form,
+.filters{
+  background:#1e293b;
+  padding:20px;
+  border-radius:10px;
+  margin-bottom:20px;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+input,
+select{
+  padding:14px;
+  border:none;
+  border-radius:8px;
+  background:#334155;
+  color:white;
+}
+
+button{
+  padding:14px;
+  border:none;
+  border-radius:8px;
+  background:#2563eb;
+  color:white;
+  cursor:pointer;
+}
+
+button:hover{
+  opacity:0.9;
+}
+
+#statsText{
+  margin-bottom:20px;
+}
+
+.task-card{
+  background:#1e293b;
+  padding:20px;
+  border-radius:10px;
+  margin-bottom:15px;
+}
+
+.task-card h2{
+  margin-bottom:10px;
+}
+
+.task-card p{
+  margin-bottom:8px;
+  color:#cbd5e1;
+}
+
+.priority{
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:6px;
+  font-size:14px;
+  margin-bottom:15px;
+}
+
+.low{
+  background:#16a34a;
+}
+
+.medium{
+  background:#d97706;
+}
+
+.high{
+  background:#dc2626;
+}
+
+.actions{
+  display:flex;
+  gap:10px;
+}
+
+.complete-btn{
+  background:#16a34a;
+}
+
+.delete-btn{
+  background:#dc2626;
+}
+
+.completed{
+  opacity:0.6;
+  text-decoration:line-through;
+}
